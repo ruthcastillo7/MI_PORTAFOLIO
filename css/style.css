@@ -1,13 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     display: contents;
     justify-content: center;
+    justify-items: center;
 }
 h1{
     background: var(--verdeosc);
-    height: 30px;
+    height: 50px;
     width: 100%;
     margin: 5px;
-    border: 3px solid var(--marron);
+    border-radius: 16px;
     padding: 0.5em 0 0.2em 0;
 }
 section{
@@ -25,7 +31,7 @@ section{
     width: 400px;
     background: var(--verdepst);
     margin: 5px;
-    border: 3px solid var(--marron);
+    border-radius: 16px;
     padding: 1em 0 1em 0;
 }
 .acerca{
@@ -34,7 +40,7 @@ section{
     width: 400px;
     background: var(--verdepst);
     margin: 5px;
-    border: 3px solid var(--marron);
+    border-radius: 16px;
     padding: 1em 0 1em 0;
     flex-direction: column;
 }
@@ -43,7 +49,7 @@ section{
     width: 400px;
     background: var(--verdepst);
     margin: 5px;
-    border: 3px solid var(--marron);
+    border-radius: 16px;
     padding: 1em 0 1em 0;
     flex-direction: column;
 }
