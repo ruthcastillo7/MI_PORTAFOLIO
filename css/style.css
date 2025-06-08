@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,7 +8,7 @@ body{
     justify-content: center;
     justify-items: center;
 }
-h1{
+nav{
     background: var(--verdeosc);
     height: 50px;
     width: 100%;
@@ -52,4 +52,4 @@ section{
     border-radius: 16px;
     padding: 1em 0 1em 0;
     flex-direction: column;
-}
+} */
