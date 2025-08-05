@@ -9,23 +9,27 @@
 </head>
 <body class="h-screen bg-lime-200">
 
-    <nav class="bg-lime-400 text-limo-500 text-[22px] font-bold text-start mb-2">RUTH CASTILLO
-        <section class="bg-lime-400 text-end">
-            <button>Inicio</button> |
-            <button>Sobre mi</button> |
-            <button>Proyectos</button> |
-            <button>Contactos</button>
+    <nav class="bg-lime-400 flex text-limo-500 space-x-50 text-[22px] font-bold text-start mb-2">RUTH CASTILLO
+        <section class="bg-lime-400 flex justify-between items-end">
+            <ul class="hidden md:flex space-x-5 ml-150">
+                <li><a href="#inicio" class="bg-lime-600 rounded-full text-white w-[100px] h-[20px] transition delay-100 duration-100 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-sky-200 hover:text-lime-300 py-2">Inicio</a></li>
+                <li><a href="#sobreMi" class="bg-lime-600 rounded-full text-white w-[100px] h-[20px] transition delay-100 duration-100 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-sky-200 hover:text-lime-300 py-2">Sobre mi</a></li>
+                <li><a href="#proyectos" class="bg-lime-600 rounded-full text-white w-[100px] h-[20px] transition delay-100 duration-100 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-sky-200 hover:text-lime-300 py-2">Proyectos</a></li>
+                <li><a href="#contactos" class="bg-lime-600 rounded-full text-white w-[100px] h-[20px] transition delay-100 duration-100 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-sky-200 hover:text-lime-300 py-2">Contactos</a></li>
+            </ul>
         </section>
     </nav>
 
-    <section class="bg-lime-300 w-[850px] h-[330px] p-4 m-auto rounded-2xl mt-[50px]">
-        <h1 class="text-center"><strong>RUTH MARINA CASTILLO HUAMANI</strong></h1>
-        <p class="w-50 h-50 absolute left-110 top-50">"Apacionada en el diseño grafico, cuidado de plantas y en el uso de CSS"</p>
-        <img class="rounded-2xl absolute left-180 top-50 object-cover" src="./assets/Foto ruth.jpeg" width="10%" height="10%">
-        <button class="bg-lime-700 text-lime-100 rounded-2xl mt-[50px] absolute left-150 top-80">Contáctame</button>
-    </section>
+    <main id="inicio">
+        <section class="bg-lime-300 w-[850px] h-[330px] p-4 m-auto rounded-2xl mt-[50px]">
+            <h1 class="text-center"><strong>RUTH MARINA CASTILLO HUAMANI</strong></h1>
+            <p class="w-50 h-50 absolute left-110 top-50">"Apacionada en el diseño grafico, cuidado de plantas y en el uso de CSS"</p>
+            <img class="rounded-2xl absolute left-180 top-50 object-cover" src="./assets/Foto ruth.jpeg" width="10%" height="10%">
+            <button class="bg-lime-700 text-lime-100 rounded-2xl mt-[50px] absolute left-150 top-80">Contáctame</button>
+        </section>
+    </main>
 
-    <main class="bg-white w-[850px] h-[530px] p-4 m-auto rounded-2xl mt-[50px]">
+    <main id="sobreMi" class="bg-white w-[850px] h-[530px] p-4 m-auto rounded-2xl mt-[50px]">
         <h2 class="text-xl"><strong>Sobre mi</strong></h2>
         <p>Soy estudiante del Instituto Superior Tecnologico <strong>"Jose Maria Arguedas"</strong> de Puquio,
              estudio la carrera de Arquitectura de Plataformas y Servicios de la Tecnologia de la Información.
@@ -46,7 +50,7 @@
         </section>
     </main>
 
-    <main class="bg-white w-[850px] h-[530px] p-4 m-auto rounded-2xl mt-[50px]">
+    <main id="proyectos" class="bg-white w-[850px] h-[530px] p-4 m-auto rounded-2xl mt-[50px]">
         <h2 class="text-xl"><strong>Proyectos</strong></h2>
         <section class="bg-lime-300 w-[250px] h-[420px] rounded-2xl text-center">
             <img class="rounded-2xl" src="./assets/JMA.jpeg" width="100%" height="90%">
@@ -65,7 +69,7 @@
         </section>
     </main>
 
-    <main class="bg-white w-[850px] h-[530px] p-4 m-auto  rounded-2xl mt-[50px]">
+    <main id="contactos" class="bg-white w-[850px] h-[530px] p-4 m-auto  rounded-2xl mt-[50px]">
         <h2 class="text-xl"><strong>Contacto</strong></h2>
         <section class="bg-lime-300 w-[380px] h-[220px] p-4 rounded-2xl text-center">
             <a href="https://wa.me/+51940270449"><img src="./assets/whatsapp-brands.svg" alt="logo de Whatsapp" width="2.5%">Whatsapp</a>
