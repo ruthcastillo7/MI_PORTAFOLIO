@@ -2,7 +2,14 @@
     body{
         flex-direction: colum;
     }
+
+    nav{
+        flex-direction: colum;
+    }
 }
+
+
+
 
 /* *{
     margin: 0;
